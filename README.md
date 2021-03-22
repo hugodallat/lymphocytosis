@@ -6,3 +6,6 @@ Lymphocytosis is a common finding, which can be either a reaction to infection, 
 
 # Classification task with Multi Instance Learning
 Blood smears and patient attributes were collected from 204 patients from the routine hematology laboratory of the Lyon SudUniversity Hospital. The samples were anonymized as required by the General Data Protection Regulation, keeping basic demographic information, age and sex, intact. The inclusion criteria were (a) a lymphocyte count above 4x10^9/L, and (b) absence of opposition to the research. The blood smears were automatically produced by a Sysmex automat tool, and the nucleated cells were automatically photographed with a DM-96 device. In particular, you will have access to 142 subjects with 44 reactive and 98 malignant cases for training and 42 subjects for testing.
+
+# Running the code
+To train and evaluate the models, one has to download the data (need the permission of the Deep Learning for Medical Imaging course at MVA) into the same folder as the "DLMI Project" and simply run the notebook. Training the downsized ResNet with K=64 takes approximately 45 minutes on a GPU.
